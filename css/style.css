@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.content {
+    display: flex;
+}
+
+.goods {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid black;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 10px 15px;
+}
+
+table tr:first-child {
+    font-weight: bold;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+table, th, td{
+    border: 2px solid black;
+}
+
+.table {
+    margin: 1rem;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #59ca3b;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.main-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 1rem;
+    max-width: 30%;
+}
